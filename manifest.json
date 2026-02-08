@@ -1,0 +1,57 @@
+{
+  "name": "MedSystem",
+  "short_name": "MedSystem",
+  "description": "Sistema de Gestão para Consultório Médico",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#2c3e50",
+  "theme_color": "#2c3e50",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEySURBVHgB7Zc9TsNAEIZnHKXkCCm5SA6Q0iVXyA1CipDR9yxv4PWm3Y89s7ZUiU+asP44DvwzXgkAAAAAAByRzHlv8WW8JC7o3OO29hJ7+4dE14nUjVb8ZPP73qj/L0D5ryu7R6X8ywKdZzwt2fl1Q0sXTgA+C6zA2Wdnpr+3d7Yl57/jBYKRFSyS1n9IwQpe31yP43CMfASeON/5KEL6Zy6gOX+SDn2nFKA5f5IOTZtSgOb8STq0tSkF6M+5n5QCOOd+UgrgnPtJKYBz7ielAM65n5QCOOd+UgrgnPtJKYBz7ielAM65n5QCOOd+UgrgnPtJKYBz7ielAM65n5QCOOd+UgrgnPtJKYBz7ielAM65n5QCOOd+UgrgnPtJKYBz7iUDAADwX0nZ53pYvLPcfQAAAABJRU5ErkJggg==",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEySURBVHgB7Zc9TsNAEIZnHKXkCCm5SA6Q0iVXyA1CipDR9yxv4PWm3Y89s7ZUiU+asP44DvwzXgkAAAAAAByRzHlv8WW8JC7o3OO29hJ7+4dE14nUjVb8ZPP73qj/L0D5ryu7R6X8ywKdZzwt2fl1Q0sXTgA+C6zA2Wdnpr+3d7Yl57/jBYKRFSyS1n9IwQpe31yP43CMfASeON/5KEL6Zy6gOX+SDn2nFKA5f5IOTZtSgOb8STq0tSkF6M+5n5QCOOd+UgrgnPtJKYBz7ielAM65n5QCOOd+UgrgnPtJKYBz7ielAM65n5QCOOd+UgrgnPtJKYBz7ielAM65n5QCOOd+UgrgnPtJKYBz7ielAM65n5QCOOd+UgrgnPtJKYBz7iUDAADwX0nZ53pYvLPcfQAAAABJRU5ErkJggg==",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "productivity", "business"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSIxMDgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiMyYzNlNTAiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjQ4IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk1lZFN5c3RlbTwvdGV4dD48L3N2Zz4=",
+      "sizes": "1920x1080",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova Consulta",
+      "short_name": "Nova Consulta",
+      "description": "Agendar nova consulta",
+      "url": "./index.html?tab=appointment-schedule",
+      "icons": [{
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB1SURBVHgB7ZOxDcAgDERvD8AoWSAjZISMkBEyQkbICBmBESwUF+WOw4aSXvFOupMt6LruBhJgBmwAmYwZEMDY7/eSYz5T47+AmKojIAXoVU4DjVUPkKiABRKDCEgQbRBhImIhOwMzYAFsgI+15RzTQd8LqAVoCa55AZKkFrV8iVY1AAAAAElFTkSuQmCC",
+        "sizes": "96x96"
+      }]
+    },
+    {
+      "name": "Novo Paciente",
+      "short_name": "Novo Paciente",
+      "description": "Cadastrar novo paciente",
+      "url": "./index.html?tab=patient-registration",
+      "icons": [{
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACLSURBVHgB7ZMxCsMwDEXfKD1DB8gIGSEjZISMkBEyQkbICB2hI2SEX5RDc5A/kp3iD/iDIH3JEmDGuAA7oBPJgAMwBNjjr7C3+Hdd10o5f3V+AhhkR+AIvIALcFKzO6y/AJzMLkQhFJoiZhEHJ2IQ8fAiehE/L6ITCfAiOpEQL6IVCfMiWpHw/w2+AV3eB8vhy8hRAAAAAElFTkSuQmCC",
+        "sizes": "96x96"
+      }]
+    }
+  ],
+  "prefer_related_applications": false
+}
